@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Color Changer</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Optional: Custom CSS (if needed) -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gradient-to-r from-indigo-100 to-purple-200 min-h-screen flex items-center justify-center">
+
+  <!-- Container -->
+  <div class="bg-white p-10 rounded-2xl shadow-2xl text-center w-full max-w-md">
+
+    <!-- Heading -->
+    <h2 class="text-3xl font-bold text-indigo-700 mb-6">🎨 Click to Change Color</h2>
+
+    <!-- Color Changing Button -->
+    <button id="colorBtn" class="py-3 px-8 bg-indigo-500 text-white text-lg rounded-xl hover:bg-indigo-600 transition duration-300">
+      Change My Color
+    </button>
+
+    <!-- Back Link -->
+    <p class="mt-8 text-sm text-gray-500">
+      <a href="index.html" class="underline hover:text-indigo-700">← Back to Home</a>
+    </p>
+  </div>
+
+  <!-- JavaScript Logic -->
+  <script src="script.js"></script>
+</body>
+</html>
